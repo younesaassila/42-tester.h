@@ -5,7 +5,6 @@
 #ifndef TESTER_H
 # define TESTER_H
 
-# include <signal.h>
 # include <stdbool.h>
 # include <stdio.h>
 # include <stdlib.h>
