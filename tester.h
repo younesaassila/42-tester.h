@@ -1,5 +1,5 @@
 /**
- * 42-tester.h v1.0.1 by Younes Aassila (https://github.com/younesaassila)
+ * 42-tester.h v1.0.2 by Younes Aassila (https://github.com/younesaassila)
  */
 
 #ifndef TESTER_H
@@ -39,6 +39,8 @@
 		if (__failure_count)                                     \
 			printf(RED "%d failed" RESET ", ", __failure_count); \
 		printf(GRN "%d passed\n" RESET, __success_count);        \
+		(void)argc;                                              \
+		(void)argv;                                              \
 		return (__exit_status);                                  \
 	}
 
